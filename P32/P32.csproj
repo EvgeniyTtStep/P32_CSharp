@@ -49,6 +49,8 @@
         <Compile Include="lesson7-8\Lesson7_8_Module5.cs" />
         <Compile Include="lesson7-8\MyException.cs" />
         <Compile Include="lesson9-10\Lesson11-12.cs" />
+        <Compile Include="lesson9-10\Lesson11-12_properties.cs" />
+        <Compile Include="lesson9-10\Lessosn11-12_inharitance.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
