@@ -13,6 +13,17 @@ namespace P32.lesson9_10
             Console.WriteLine(myList[0]);
             Console.WriteLine(myList.Count);
             Console.WriteLine(myList[1]);
+            
+            MyMatrix myMatrix = new MyMatrix{Arr = new []{10,20,30,40,50}};
+            myMatrix[0, 0] = 1;
+            myMatrix[0, 1] = 2;
+            myMatrix[0, 2] = 3;
+
+            myMatrix.Arr[0] = 11;
+            foreach (var arr in myMatrix.Arr)
+            {
+                Console.WriteLine(arr);
+            }
 
         }
     }
@@ -32,5 +43,21 @@ namespace P32.lesson9_10
             get { return arr[index]; }
             set { arr[index] = value; }
         }
+    }
+
+
+    class MyMatrix
+    {
+        
+        public int [] Arr { get; set; }
+        
+        private int[,] Matrixxx = new int[10, 10];
+
+        public int this[int row, int col]
+        {
+            get { return Matrixxx[row, col]; }
+            set { Matrixxx[row, col] = value; }
+        }
+        
     }
 }
