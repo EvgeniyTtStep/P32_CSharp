@@ -40,8 +40,18 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Program.cs"/>
+        <Compile Include="lesson1_2\Lesson1.cs" />
+        <Compile Include="lesson3_4\Lesson3_4.cs" />
+        <Compile Include="lesson3_4\Student.cs" />
+        <Compile Include="lesson5_6\Lesson5_6.cs" />
+        <Compile Include="lesson5_6\Teacher.cs" />
+        <Compile Include="lesson7-8\Lesson7-8.cs" />
+        <Compile Include="lesson7-8\Lesson7_8_Module5.cs" />
+        <Compile Include="lesson7-8\MyException.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="lesson9-10\" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
