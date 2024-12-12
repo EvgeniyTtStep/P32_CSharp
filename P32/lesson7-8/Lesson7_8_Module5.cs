@@ -34,29 +34,29 @@ namespace P32.lesson7_8
     
     public class Lesson7_8_Module5
     {
-        public static void Main(string[] args)
-        {
-            MyClass myClass1 = new MyClass(10, 20);
-            MyClass myClass2 = new MyClass(3, 7);
-            //MyClass myClass3 = new MyClass(0, 0);
-            
-            // myClass3.X = myClass1.X + myClass2.X;
-            // myClass3.Y = myClass1.Y + myClass2.Y;
-            
-            MyClass myClass3 = myClass1 + myClass2;
-            
-            Console.WriteLine(myClass3.X);
-            Console.WriteLine(myClass3.Y);
-
-            myClass3 = -myClass3;
-
-            
-            Console.WriteLine(myClass3.X);
-            Console.WriteLine(myClass3.Y);
-            
-            Console.WriteLine(myClass1 == myClass2);
-
-        }
+        // public static void Main(string[] args)
+        // {
+        //     MyClass myClass1 = new MyClass(10, 20);
+        //     MyClass myClass2 = new MyClass(3, 7);
+        //     //MyClass myClass3 = new MyClass(0, 0);
+        //     
+        //     // myClass3.X = myClass1.X + myClass2.X;
+        //     // myClass3.Y = myClass1.Y + myClass2.Y;
+        //     
+        //     MyClass myClass3 = myClass1 + myClass2;
+        //     
+        //     Console.WriteLine(myClass3.X);
+        //     Console.WriteLine(myClass3.Y);
+        //
+        //     myClass3 = -myClass3;
+        //
+        //     
+        //     Console.WriteLine(myClass3.X);
+        //     Console.WriteLine(myClass3.Y);
+        //     
+        //     Console.WriteLine(myClass1 == myClass2);
+        //
+        // }
         
     }
     

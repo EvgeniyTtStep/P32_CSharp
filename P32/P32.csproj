@@ -48,10 +48,8 @@
         <Compile Include="lesson7-8\Lesson7-8.cs" />
         <Compile Include="lesson7-8\Lesson7_8_Module5.cs" />
         <Compile Include="lesson7-8\MyException.cs" />
+        <Compile Include="lesson9-10\Lesson11-12.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="lesson9-10\" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
