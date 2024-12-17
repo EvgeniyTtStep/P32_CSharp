@@ -1,17 +1,24 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 
 namespace P32.lesson9_10
 {
     public class Lessosn11_12_inharitance
     {
-        // public static void Main(string[] args)
-        // {
-        //     Shape rectangle = new ColorRectangle();
-        //     rectangle.Draw();
-        //     
-        //     
-        // }
+        public static void Main(string[] args)
+        {
+            
+            
+            Shape rectangle = new ColorRectangle();
+            rectangle.Draw();
+            //rectangle.RectangleDraw();
+            //rectangle.ColorDrawing();
+            
+            
+
+
+        }
     }
 
     class Shape
@@ -22,10 +29,9 @@ namespace P32.lesson9_10
             get { return x; }
             set { x = value; }
         }
-
-        public void Draw()
+        public virtual void Draw()
         {
-            Console.WriteLine("Shape");
+            Console.WriteLine("Shape //====================================");
         }
     }
 
@@ -47,10 +53,17 @@ namespace P32.lesson9_10
             }
         }
         
-        public void Draw()
+        public override void Draw()
         {
-            Console.WriteLine("Rectangle");
+            base.Draw();
+            Console.WriteLine("Rectangle //====================================");
         }
+        
+        public void RectangleDraw()
+        {
+            Console.WriteLine("Rectangle draw" + x + y);
+        }
+
         
     }
 
@@ -71,9 +84,15 @@ namespace P32.lesson9_10
             }
         }
         
-        public void Draw()
+        public override void Draw()
         {
-            Console.WriteLine("ColorRectangle");
+            base.Draw();
+            Console.WriteLine("ColorRectangle //====================================");
+        }
+
+        public void ColorDrawing()
+        {
+            Console.WriteLine("ColorRectangle draw" + color);
         }
     }
 }

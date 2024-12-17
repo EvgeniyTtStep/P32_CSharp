@@ -4,16 +4,18 @@ namespace P32.lesson11_12
 {
     public class Lesson13_14
     {
-        public static void Main(string[] args)
-        {
-            C c = new C("Name c");
-        }
+        // public static void Main(string[] args)
+        // {
+        //     A c = new C("Name c");
+        //     c.Show();
+        //     c.Method();
+        // }
     }
 
 
     class A
     {
-        private string name;
+        protected string name;
         
         public A()
         {
@@ -26,6 +28,17 @@ namespace P32.lesson11_12
             this.name = name;
             Console.WriteLine("A " + this.name);
         }
+
+        public void Show()
+        {
+            Console.WriteLine("Show A ");
+        }
+
+        public virtual void Method()
+        {
+            Console.WriteLine("Method A ");
+        }
+        
     }
 
 
@@ -40,6 +53,16 @@ namespace P32.lesson11_12
         {
             Console.WriteLine("B " + name);
         }
+
+        public new void Show()
+        {
+            Console.WriteLine("Show B " + name);
+        }
+
+        public override void Method()
+        {
+            Console.WriteLine("Method B ");
+        }
         
     }
 
@@ -53,6 +76,17 @@ namespace P32.lesson11_12
         public C(string name) : base(name)
         {
             Console.WriteLine("C " + name);
+        }
+
+        
+        public new void Show()
+        {
+            Console.WriteLine("Show C ");
+        }
+        
+        public override void Method()
+        {
+            Console.WriteLine("Method C ");
         }
         
     }
