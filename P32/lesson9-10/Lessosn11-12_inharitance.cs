@@ -5,13 +5,13 @@ namespace P32.lesson9_10
 {
     public class Lessosn11_12_inharitance
     {
-        public static void Main(string[] args)
-        {
-            Shape rectangle = new ColorRectangle();
-            rectangle.Draw();
-            
-            
-        }
+        // public static void Main(string[] args)
+        // {
+        //     Shape rectangle = new ColorRectangle();
+        //     rectangle.Draw();
+        //     
+        //     
+        // }
     }
 
     class Shape
