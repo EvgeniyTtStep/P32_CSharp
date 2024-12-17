@@ -24,7 +24,7 @@ namespace P32.lesson9_10
         private int Age { get; set; } = 16;
 
         private decimal salary;
-
+        
         public decimal Salary
         {
             get { return salary; }
@@ -40,8 +40,8 @@ namespace P32.lesson9_10
 
         public string Name
         {
-            get { return name; }
-            set { name = value; }
+            get => name; 
+            set => name = value; 
         }
 
         private void show()

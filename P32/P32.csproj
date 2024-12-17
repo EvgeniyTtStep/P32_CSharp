@@ -40,6 +40,7 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="lesson11-12\Lesson13-14.cs" />
         <Compile Include="lesson1_2\Lesson1.cs" />
         <Compile Include="lesson3_4\Lesson3_4.cs" />
         <Compile Include="lesson3_4\Student.cs" />

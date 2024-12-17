@@ -1,21 +1,31 @@
-﻿namespace P32.lesson9_10
+﻿using System;
+using System.Globalization;
+
+namespace P32.lesson9_10
 {
     public class Lessosn11_12_inharitance
     {
         public static void Main(string[] args)
         {
-            Rectangle rectangle = new Rectangle();
+            Shape rectangle = new ColorRectangle();
+            rectangle.Draw();
+            
             
         }
     }
 
     class Shape
     {
-       protected int x;
+        protected int x;
         public int X
         {
             get { return x; }
             set { x = value; }
+        }
+
+        public void Draw()
+        {
+            Console.WriteLine("Shape");
         }
     }
 
@@ -36,6 +46,12 @@
                 y = value;
             }
         }
+        
+        public void Draw()
+        {
+            Console.WriteLine("Rectangle");
+        }
+        
     }
 
     class ColorRectangle : Rectangle 
@@ -54,7 +70,10 @@
                 color = value;
             }
         }
+        
+        public void Draw()
+        {
+            Console.WriteLine("ColorRectangle");
+        }
     }
-    
-    
 }

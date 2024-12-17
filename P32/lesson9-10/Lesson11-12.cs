@@ -31,12 +31,12 @@ namespace P32.lesson9_10
     {
         public int Count{ set; get; }
         private int[] arr = new int[10];
-
-
+        
         public MyList(int count)
         {
             Count = count;
         }
+        
         //дозволяє використовувати обєкти як масиви 
         public int this[int index]
         {
