@@ -20,12 +20,15 @@ namespace P32.Lesson19_20
         void ToStudy();
         
         int AvgMark();
+
+        void Show();
     }
 
     interface IEnergySystem 
     {
         string Type { get; set; }
         
+        void Show();
     }
 
     
@@ -54,7 +57,15 @@ namespace P32.Lesson19_20
 
         public int Name { get; set; }
         public string Description { get; set; }
+
+
+        void IInstitution.Show()=> Console.WriteLine("IInstitution Show");    
         
+        void IEnergySystem.Show() => Console.WriteLine("EnergySystem Show");
+        
+        
+        
+
         public void ToStudy()
         {
            Console.WriteLine("Students in school " + Name + " are studying now");
@@ -83,6 +94,30 @@ namespace P32.Lesson19_20
             IInstitution school2 = new School {Name = 102, Description = "Good school"};
             school2.ToStudy();
             
+            
+            ((IInstitution)school).Show();
+            ((IEnergySystem)school).Show();
+
+            Console.WriteLine("==========================");
+            
+            IInstitution school3 = new School {Name = 103, Description = "Good school"};
+            school3.Show();
+            
+            IEnergySystem school4 = new School {Name = 104, Description = "Good school"};
+            school4.Show();
+            
+            Test test = new Test();
+            Test test1 = new Test();
+            Test test3 = (Test)test.Clone();
         }        
+    }
+
+    class Test : ICloneable
+    {
+
+        public object Clone()
+        {
+            return this;
+        }
     }
 }
