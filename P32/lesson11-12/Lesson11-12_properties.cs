@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace P32.lesson9_10
+namespace P32.lesson11_12
 {
     public class Lesson11_12_properties
     {

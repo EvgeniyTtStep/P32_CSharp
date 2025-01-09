@@ -40,18 +40,31 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="lesson11-12\Lesson13-14.cs" />
-        <Compile Include="lesson1_2\Lesson1.cs" />
+        <Compile Include="Hw.cs" />
+        <Compile Include="lesson13-14\Lesson13-14.cs" />
+        <Compile Include="Lesson15-16\AbstractExample.cs" />
+        <Compile Include="Lesson15-16\Lesson15-16.cs" />
+        <Compile Include="Lesson15-16\SealedExample.cs" />
+        <Compile Include="Lesson17-18\IVehickle.cs" />
+        <Compile Include="Lesson17-18\ObjectExample.cs" />
+        <Compile Include="Lesson19-20\IInstitution.cs" />
+        <Compile Include="Lesson19-20\Practice.cs" />
+        <Compile Include="Lesson21-22\Day.cs" />
+        <Compile Include="Lesson21-22\Human.cs" />
+        <Compile Include="Lesson21-22\Lesson21-22.cs" />
+        <Compile Include="Lesson21-22\Point.cs" />
+        <Compile Include="Lesson21-22\Shape.cs" />
         <Compile Include="lesson3_4\Lesson3_4.cs" />
-        <Compile Include="lesson3_4\Student.cs" />
         <Compile Include="lesson5_6\Lesson5_6.cs" />
-        <Compile Include="lesson5_6\Teacher.cs" />
-        <Compile Include="lesson7-8\Lesson7-8.cs" />
-        <Compile Include="lesson7-8\Lesson7_8_Module5.cs" />
-        <Compile Include="lesson7-8\MyException.cs" />
-        <Compile Include="lesson9-10\Lesson11-12.cs" />
-        <Compile Include="lesson9-10\Lesson11-12_properties.cs" />
-        <Compile Include="lesson9-10\Lessosn11-12_inharitance.cs" />
+        <Compile Include="lesson5_6\Student.cs" />
+        <Compile Include="lesson7_8\Lesson7_8.cs" />
+        <Compile Include="lesson7_8\Teacher.cs" />
+        <Compile Include="lesson9-10\Lesson9-10.cs" />
+        <Compile Include="lesson9-10\Lesson9_10_Module5.cs" />
+        <Compile Include="lesson9-10\MyException.cs" />
+        <Compile Include="lesson11-12\Lesson11-12.cs" />
+        <Compile Include="lesson11-12\Lesson11-12_properties.cs" />
+        <Compile Include="lesson11-12\Lessosn11-12_inharitance.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>

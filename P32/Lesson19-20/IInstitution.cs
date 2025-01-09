@@ -86,7 +86,7 @@ namespace P32.Lesson19_20
 
     class Run
     {
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             School school = new School {Name = 101, Description = "Good school"};
             school[0] = "A+";
@@ -97,7 +97,7 @@ namespace P32.Lesson19_20
             
             ((IInstitution)school).Show();
             ((IEnergySystem)school).Show();
-
+        
             Console.WriteLine("==========================");
             
             IInstitution school3 = new School {Name = 103, Description = "Good school"};
@@ -109,7 +109,9 @@ namespace P32.Lesson19_20
             Test test = new Test();
             Test test1 = new Test();
             Test test3 = (Test)test.Clone();
-        }        
+            
+         
+        }        */
     }
 
     class Test : ICloneable

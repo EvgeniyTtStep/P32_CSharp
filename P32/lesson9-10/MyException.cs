@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace P32.lesson7_8
+namespace P32.lesson9_10
 {
     public class MyException : Exception
     {

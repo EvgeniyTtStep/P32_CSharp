@@ -1,14 +1,17 @@
 ﻿using System;
 
-namespace P32.lesson11_12
+namespace P32.lesson13_14
 {
     public class Lesson13_14
     {
         // public static void Main(string[] args)
         // {
-        //     A c = new C("Name c");
-        //     c.Show();
-        //     c.Method();
+        //     // A c = new C("Name c");
+        //     // c.Show();
+        //     // c.Method();
+        //     
+        //     A a = new A();
+        //     
         // }
     }
 
@@ -17,10 +20,9 @@ namespace P32.lesson11_12
     {
         protected string name;
         
-        public A()
+        public A():this("Default constructor")
         {
-            name = "A";
-            Console.WriteLine("A");
+            Console.WriteLine(name);
         }
 
         public A(string name)

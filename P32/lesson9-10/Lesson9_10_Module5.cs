@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace P32.lesson7_8
+﻿namespace P32.lesson9_10
 {
 
     class MyClass
@@ -32,7 +30,7 @@ namespace P32.lesson7_8
     }
     
     
-    public class Lesson7_8_Module5
+    public class Lesson9_10_Module5
     {
         // public static void Main(string[] args)
         // {

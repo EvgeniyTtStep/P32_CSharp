@@ -1,54 +1,50 @@
-﻿using System;
-
-namespace P32.lesson5_6
+﻿namespace P32.lesson5_6
 {
-
-    partial class Teacher
-    {
-        public string Email { get; set; }
-
-        public void ShowEmail()
-        {
-            Console.WriteLine(Email);
-        }
-    }
-    
-    
     public class Lesson5_6
     {
-        public static void Sum(int[] array)
-        {
-            int sum = 0;
-            foreach (int elem in array)
-            {
-                sum += elem;
-            }
-        }
-
-        public static void Sum(int a, params int[] array)
-        {
-            int sum = 0;
-            foreach (int elem in array)
-            {
-                sum += elem;
-            }
-
-            Console.WriteLine(sum);
-        }
-
         // public static void Main(string[] args)
         // {
-        //     int[] array = { 1, 2, 4, 5, 6, 7 };
-        //     Sum(1, 2, 3, 4, 5, 6, 7);
-        //     Sum(1,array);
-        //     
-        //     Teacher teacher = new Teacher{
-        //         FirstName = "Jack",
-        //         LastName = "Lukas",
-        //         Email = "jack@gmail.com"};
-        //     teacher.ShowEmail();
-        //     teacher.ShowInfo();
-        //     
+        //     string str = "Hello World HHH!";
+        //     char[] charArray = str.ToCharArray();
+        //
+        //     foreach (var item in charArray)
+        //     {
+        //         if (Char.IsLower(item))
+        //         {
+        //             Console.Write(Char.ToUpper(item));
+        //         }
+        //         else if (Char.IsUpper(item))
+        //         {
+        //             Console.Write(Char.ToLower(item));
+        //         }
+        //         else
+        //         {
+        //             Console.Write(item);
+        //         }
+        //     }
+        //
+        //     Console.WriteLine();
+        //     Console.WriteLine(str.Replace('H', 'l'));
+        //
+        //
+        //     Console.WriteLine(str.Substring(6));
+        //     Console.WriteLine(str.Substring(6, 3));
+        //
+        //     StringBuilder builder = new StringBuilder(str);
+        //     builder.Insert(6, "Jack ");
+        //     Console.WriteLine(builder.ToString());
+        //
+        //     str = "Hello Java developer, i love java very love jAvA developer!";
+        //     int insex = str.ToLower().IndexOf("java");
+        //     Console.WriteLine("Index 1 = " + insex);
+        //     Console.WriteLine("Substring 1 " + str.Substring(insex, 4));
+        //
+        //     while (insex != -1)
+        //     {
+        //         insex = str.ToLower().IndexOf("java", insex + 1);
+        //         Console.WriteLine("Index 2 = " + insex);
+        //         Console.WriteLine("Substring 2 " + str.Substring(insex, 4));
+        //     }
         // }
     }
 }

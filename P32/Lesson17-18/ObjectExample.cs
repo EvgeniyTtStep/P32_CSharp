@@ -5,7 +5,7 @@ namespace P32.Lesson17_18
 {
     public class ObjectExample
     {
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             Phone phone = new Phone { Name = "Phone 11", Brand = "Apple" };
             Phone phone1 = new Phone { Name = "Phone 11", Brand = "Apple" };
@@ -20,7 +20,7 @@ namespace P32.Lesson17_18
             Console.WriteLine("===================");
             Console.WriteLine("Phone 11".GetType());
             Console.WriteLine(12.GetType());
-
+        
             Phone phone2 = phone1;
             
             //Boxing/Unboxing
@@ -31,12 +31,7 @@ namespace P32.Lesson17_18
             object obj2 = 88;//boxing
             int num2 = (int)obj2;//uboxing
             Console.WriteLine(num2 + " " + num2.GetType() +" "+ obj2.GetType());
-            
-
-
-
-
-        }
+        }*/
     }
 
     class Phone:Object

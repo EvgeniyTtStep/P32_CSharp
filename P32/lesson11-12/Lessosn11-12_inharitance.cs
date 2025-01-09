@@ -1,24 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
 
-namespace P32.lesson9_10
+namespace P32.lesson11_12
 {
     public class Lessosn11_12_inharitance
     {
-        public static void Main(string[] args)
-        {
-            
-            
-            Shape rectangle = new ColorRectangle();
-            rectangle.Draw();
-            //rectangle.RectangleDraw();
-            //rectangle.ColorDrawing();
-            
-            
-
-
-        }
+        // public static void Main(string[] args)
+        // {
+        //     Shape rectangle = new ColorRectangle();
+        //     rectangle.Draw();
+        //     // rectangle.RectangleDraw();
+        //     // rectangle.ColorDrawing();
+        // }
     }
 
     class Shape

@@ -1,11 +1,10 @@
 ﻿using System;
-using System.ComponentModel.Design;
 using System.IO;
-using System.Timers;
+using P32.lesson7_8;
 
-namespace P32.lesson7_8
+namespace P32.lesson9_10   
 {
-    public class Lesson7_8
+    public class Lesson9_10
     {
         
         public static void check()

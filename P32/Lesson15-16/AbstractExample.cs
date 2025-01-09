@@ -4,12 +4,12 @@ namespace P32.Lesson15_16
 {
     public class AbstractExample
     {
-        public static void Main(string[] args)
-        {
-            Animal animal = new Dog();
-            animal.Eat();
-            
-        }
+        // public static void Main(string[] args)
+        // {
+        //     Animal animal = new Dog();
+        //     animal.Eat();
+        //     
+        // }
         
     }
 
@@ -19,9 +19,6 @@ namespace P32.Lesson15_16
          public abstract void Eat();
          public abstract void Walk();
          public abstract void Sleep();
-
-         
-
      }
 
 

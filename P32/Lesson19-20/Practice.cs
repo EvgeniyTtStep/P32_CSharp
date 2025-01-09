@@ -45,14 +45,14 @@ namespace P32.Lesson19_20
     }
     class Run111
     {
-        public static void Main(string[] args)
-        {
-            ISort no = new Array();
-         
-            no.SortByParam(true);
-            no.SortByParam(false);
-            
-            
-        }        
+        // public static void Main(string[] args)
+        // {
+        //     ISort no = new Array();
+        //  
+        //     no.SortByParam(true);
+        //     no.SortByParam(false);
+        //     
+        //     
+        // }        
     }
 }

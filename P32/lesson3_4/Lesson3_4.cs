@@ -1,53 +1,97 @@
-﻿using System;
-using System.Text;
-
-namespace P32.lesson3_4
+﻿namespace P32.lesson3_4
 {
     public class Lesson3_4
     {
+    
+        
+        
         // public static void Main(string[] args)
         // {
-        //     string str = "Hello World HHH!";
-        //     char[] charArray = str.ToCharArray();
+        //     byte by = 255; //8 біт 000
+        //     short num1 = 15;
+        //     int number = 25;
+        //     long num2 = 35;
         //
-        //     foreach (var item in charArray)
+        //     float num3 = 45.44f; //32
+        //     double num4 = 45.44; //65
+        //     decimal money = 45.6m; //128
+        //
+        //     char letter = 'a';
+        //
+        //     bool flag = false;
+        //     string str1 = "Hello";
+        //     object obj1 = 45.5;
+        //     obj1 = "Hello";
+        //
+        //
+        //     Console.WriteLine(flag);
+        //
+        //
+        //     var v = 56;
+        //     var v1 = 56.4;
+        //     var v2 = "Hello";
+        //     object obj2 = 45.5;
+        //
+        //     var s1 = new ContextStaticAttribute();
+        //     var d1 = new LicenseProviderAttribute();
+        //
+        //     v = 99;
+        //     v1 = 88.51;
+        //     v2 = "Hello";
+        //     obj2 = 'w';
+        //
+        //     Console.WriteLine("Object = " + obj2);
+        //
+        //     Console.Write("Enter Object1 : ");
+        //     string line = Console.ReadLine();
+        //     Console.WriteLine("Object = " + line);
+        //
+        //
+        //     int a = 65;
+        //
+        //     double b = a; //неявне перетворення
+        //     int c = (int)b; //явне
+        //
+        //     string dd = null;
+        //     int? d = dd?.Length; //null condition
+        //     Console.WriteLine(d);
+        //
+        //     Console.WriteLine("null condition " + nameof(money) + " = " + money); // nameof
+        //
+        //     int[,] matrix = { { 1, 2, 3, 4 }, { 5, 6, 7, 8 } };
+        //
+        //     int[][] jagged = new int[3][];
+        //     jagged[0] = new int[] { 1, 2, 3, 4 };
+        //     jagged[1] = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+        //     jagged[2] = new int[] { 7, 8 };
+        //
+        //
+        //     string name = "John Smith";
+        //
+        //     name = name?.ToString();
+        //     string[] strings = name.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+        //
+        //     foreach (var word in strings)
         //     {
-        //         if (Char.IsLower(item))
-        //         {
-        //             Console.Write(Char.ToUpper(item));
-        //         }
-        //         else if (Char.IsUpper(item))
-        //         {
-        //             Console.Write(Char.ToLower(item));
-        //         }
-        //         else
-        //         {
-        //             Console.Write(item);
-        //         }
+        //         Console.WriteLine(word);
         //     }
         //
-        //     Console.WriteLine();
-        //     Console.WriteLine(str.Replace('H', 'l'));
         //
-        //
-        //     Console.WriteLine(str.Substring(6));
-        //     Console.WriteLine(str.Substring(6, 3));
-        //
-        //     StringBuilder builder = new StringBuilder(str);
-        //     builder.Insert(6, "Jack ");
-        //     Console.WriteLine(builder.ToString());
-        //
-        //     str = "Hello Java developer, i love java very love jAvA developer!";
-        //     int insex = str.ToLower().IndexOf("java");
-        //     Console.WriteLine("Index 1 = " + insex);
-        //     Console.WriteLine("Substring 1 " + str.Substring(insex, 4));
-        //
-        //     while (insex != -1)
+        //     for (int j = 0; j < 10; j++)
         //     {
-        //         insex = str.ToLower().IndexOf("java", insex + 1);
-        //         Console.WriteLine("Index 2 = " + insex);
-        //         Console.WriteLine("Substring 2 " + str.Substring(insex, 4));
+        //         Console.WriteLine("j = "+ j);
         //     }
+        //
+        //     var lesson1 = new Lesson1();
+        //
+        //     lesson1?.show();
         // }
+        //
+        // void show()
+        // {
+        //     Console.WriteLine("Null test");
+        // }
+        
     }
+    
 }
