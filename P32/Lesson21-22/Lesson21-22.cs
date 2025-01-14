@@ -4,7 +4,7 @@ namespace P32.Lesson21_22
 {
     public class Lesson21_22
     {
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             Point point = new Point();
             point.Show();
@@ -47,6 +47,6 @@ namespace P32.Lesson21_22
 
             int res = num ?? 75;
             Console.WriteLine("Res = " + res);
-        }
+        }*/
     }
 }
