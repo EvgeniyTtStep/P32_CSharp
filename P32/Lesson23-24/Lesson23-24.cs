@@ -35,6 +35,7 @@ namespace P32.Lesson23_24
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("==== Delegate ====");
             MyDelegate del = MyProgram.Show1;
             del += MyProgram.Show2;
             del += MyProgram.Show3;
@@ -47,6 +48,14 @@ namespace P32.Lesson23_24
             Delegate removeDel = Delegate.Remove(combine, del);
             
             Delegate multik = MulticastDelegate.Combine(removeDel, del);
+            
+            Console.WriteLine("==== Event ====");
+            
+            EventExample eventExample = new EventExample();
+            eventExample.NotifyEvent += EmailSender.SendEmail;
+            eventExample.NotifyEvent += EmailSender.SetStatus;
+            
+            eventExample.NotifyMethod("Hello Event!");
             
         }
     }
