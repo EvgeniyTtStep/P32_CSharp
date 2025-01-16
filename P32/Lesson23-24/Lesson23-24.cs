@@ -33,7 +33,7 @@ namespace P32.Lesson23_24
 
     class Run
     {
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             Console.WriteLine("==== Delegate ====");
             MyDelegate del = MyProgram.Show1;
@@ -57,6 +57,6 @@ namespace P32.Lesson23_24
             
             eventExample.NotifyMethod("Hello Event!");
             
-        }
+        }*/
     }
 }
