@@ -6,7 +6,7 @@ namespace P32.Lesson25_16
 {
     public class Lesson25_26
     {
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             
             Game game = new Game();
@@ -54,6 +54,6 @@ namespace P32.Lesson25_16
             
             
             
-        }
+        }*/
     }
 }

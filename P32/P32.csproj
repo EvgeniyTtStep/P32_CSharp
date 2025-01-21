@@ -62,6 +62,10 @@
         <Compile Include="Lesson25-26\Game.cs" />
         <Compile Include="Lesson25-26\LambdaExample.cs" />
         <Compile Include="Lesson25-26\Lesson25-26.cs" />
+        <Compile Include="Lesson27-28\IBaseEntity.cs" />
+        <Compile Include="Lesson27-28\Car.cs" />
+        <Compile Include="Lesson27-28\Human.cs" />
+        <Compile Include="Lesson27-28\Lesson27-28.cs" />
         <Compile Include="lesson3_4\Lesson3_4.cs" />
         <Compile Include="lesson5_6\Lesson5_6.cs" />
         <Compile Include="lesson5_6\Student.cs" />
@@ -74,9 +78,6 @@
         <Compile Include="lesson11-12\Lesson11-12_properties.cs" />
         <Compile Include="lesson11-12\Lessosn11-12_inharitance.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Lesson27-28\" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
