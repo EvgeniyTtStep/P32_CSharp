@@ -15,6 +15,10 @@ namespace P32.Lesson25_16
             
             game.StartWinEvent("You win this game");
             
+            PlayGame playGame = new PlayGame();
+            playGame.NewLevel("You win this game");
+            
+            
              
 
             Console.WriteLine("===== Aнонімний метод =====");
@@ -41,15 +45,15 @@ namespace P32.Lesson25_16
             {
                 Console.Write(num + " ");
             }
-            
             Console.WriteLine();
             
             numbers
                 .Where((x) => x % 2 == 0)
                 .ToList()
                 .ForEach(Console.Write);
-
-
+            
+            
+            
         }
     }
 }
