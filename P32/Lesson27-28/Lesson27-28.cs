@@ -13,7 +13,7 @@ namespace P32.Lesson27_28
     public class Lesson27_28
     {
 
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             Car<int> intCar = new Car<int>(1);
             Car<char> charCar = new Car<char>('1');
@@ -38,7 +38,7 @@ namespace P32.Lesson27_28
             
             nested.Show();
 
-        }
+        }*/
         
         
         

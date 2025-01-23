@@ -66,6 +66,8 @@
         <Compile Include="Lesson27-28\Car.cs" />
         <Compile Include="Lesson27-28\Human.cs" />
         <Compile Include="Lesson27-28\Lesson27-28.cs" />
+        <Compile Include="Lesson29-30\IterExample.cs" />
+        <Compile Include="Lesson29-30\Lesson29-30.cs" />
         <Compile Include="lesson3_4\Lesson3_4.cs" />
         <Compile Include="lesson5_6\Lesson5_6.cs" />
         <Compile Include="lesson5_6\Student.cs" />

@@ -1,5 +1,9 @@
 ﻿namespace P32.Lesson27_28
 {
+    
+    public delegate T GenericDelegate<T>(T value);
+    
+    
     public class Human
     {
         public string FirstName { get; set; }
@@ -24,7 +28,11 @@
             T temp = first;
             first = second;
             second = temp;
-            
+        }
+        
+        public string GetFullName(string s)
+        {
+            return $"{FirstName}{s}{LastName}";
         }
         
         
