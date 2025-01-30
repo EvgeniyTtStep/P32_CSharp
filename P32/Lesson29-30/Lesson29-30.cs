@@ -4,9 +4,20 @@ using P32.Lesson27_28;
 
 namespace P32.Lesson29_30
 {
+    class Emplie
+    {
+        public string name;
+        public string email;
+        public string phone;
+        int amount;
+        private int age;
+
+    }
+    
+    
     public class Lesson29_30
     {
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             
             Human human = new Human("Bill", "Debugs", 16);
@@ -77,6 +88,12 @@ namespace P32.Lesson29_30
             
             Console.WriteLine(queue.Dequeue());
             Console.WriteLine(queue.Peek());
-        }
+            
+            
+            
+            List<Emplie> emplies = new List<Emplie>();
+            emplies.Add(new Emplie() { name = "Jack", email = "jack@gmail.com" });
+            emplies.Add(new Emplie() { name = "Bob", email = "bob@gmail.com" });
+        }*/
     }
 }

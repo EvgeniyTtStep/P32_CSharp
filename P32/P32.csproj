@@ -13,6 +13,8 @@
         <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+        <LangVersion>13</LangVersion>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -68,6 +70,11 @@
         <Compile Include="Lesson27-28\Lesson27-28.cs" />
         <Compile Include="Lesson29-30\IterExample.cs" />
         <Compile Include="Lesson29-30\Lesson29-30.cs" />
+        <Compile Include="Lesson31-32\Lesson31-32.cs" />
+        <Compile Include="Lesson31-32\NewRecord.cs" />
+        <Compile Include="Lesson31-32\P32Record.cs" />
+        <Compile Include="Lesson31-32\Teacher.cs" />
+        <Compile Include="Lesson33-34\IOExample.cs" />
         <Compile Include="lesson3_4\Lesson3_4.cs" />
         <Compile Include="lesson5_6\Lesson5_6.cs" />
         <Compile Include="lesson5_6\Student.cs" />

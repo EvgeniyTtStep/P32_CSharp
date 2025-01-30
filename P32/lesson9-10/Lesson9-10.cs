@@ -28,40 +28,40 @@ namespace P32.lesson9_10
             
         }
         
-        // public static void Main(string[] args)
-        // {
-        //     //Console.WriteLine(10/0);
-        //     String name = null;
-        //
-        //     int a = 10;
-        //     int b = 0;
-        //
-        //     try
-        //     {
-        //         //Console.Write(a / b);
-        //         Console.Write(name.Length);
-        //     }
-        //     catch (ArithmeticException exception)
-        //     {
-        //         Console.WriteLine("Division by zero = " + exception.Message);
-        //     }
-        //     catch (NullReferenceException exception)
-        //     {
-        //         Console.WriteLine("Null reference = " + exception.Message);
-        //     }
-        //     finally
-        //     {
-        //         Console.WriteLine("Press any key to continue...");
-        //     }
-        //     
-        //     Console.WriteLine("\n\nEnd program");
-        //     
-        //     
-        //    // my_exception(10);
-        //     
-        //     check();
-        //     
-        //
-        // }
+        /*public static void Main(string[] args)
+        {
+            //Console.WriteLine(10/0);
+            String name = null;
+        
+            int a = 10;
+            int b = 0;
+        
+            try
+            {
+                //Console.Write(a / b);
+                Console.Write(name.Length);
+            }
+            catch (ArithmeticException exception)
+            {
+                Console.WriteLine("Division by zero = " + exception.Message);
+            }
+            catch (NullReferenceException exception)
+            {
+                Console.WriteLine("Null reference = " + exception.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Press any key to continue...");
+            }
+            
+            Console.WriteLine("\n\nEnd program");
+            
+            
+           // my_exception(10);
+            
+            check();
+            
+        
+        }*/
     }
 }
