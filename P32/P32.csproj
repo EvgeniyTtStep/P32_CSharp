@@ -75,6 +75,7 @@
         <Compile Include="Lesson31-32\P32Record.cs" />
         <Compile Include="Lesson31-32\Teacher.cs" />
         <Compile Include="Lesson33-34\IOExample.cs" />
+        <Compile Include="Lesson35-36\Lesson35-36.cs" />
         <Compile Include="lesson3_4\Lesson3_4.cs" />
         <Compile Include="lesson5_6\Lesson5_6.cs" />
         <Compile Include="lesson5_6\Student.cs" />

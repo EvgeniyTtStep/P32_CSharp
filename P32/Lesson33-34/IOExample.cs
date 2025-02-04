@@ -10,7 +10,7 @@ public class IOExample
     //StreamReader, StreamWriter, chars 
     //BinaryReader, BinaryWriter, binary 
 
-    public static void Main(string[] args)
+    /*public static void Main(string[] args)
     {
         string path = "C:\\Users\\Home\\RiderProjects\\P32\\P32\\input.bin";
 
@@ -70,5 +70,50 @@ public class IOExample
            Console.WriteLine("Binary data string:" + s);
            
         }
-    }
+        
+        Console.WriteLine("============= Directory ==============");
+        
+        
+        
+        string pathDir = "C:\\Users\\Home\\RiderProjects\\P32\\P32\\LessonDir";
+        if (!Directory.Exists(pathDir))
+        {
+            //Directory.CreateDirectory(pathDir);
+        }
+
+        string[] files = Directory.GetFiles(pathDir);
+        string[] directories = Directory.GetDirectories(pathDir);
+        
+        
+        Console.WriteLine("============= DirectoryInfo ==============");
+        
+        pathDir = "C:\\Users\\Home\\RiderProjects\\P32\\P32\\LessonDirInfo";
+        
+        DirectoryInfo directoryInfo = new DirectoryInfo(pathDir);
+        
+        if (!directoryInfo.Exists)
+        {
+           //directoryInfo.Create();
+        }
+
+        Console.WriteLine($"FullName: {directoryInfo.FullName}");
+        Console.WriteLine($"Time: {directoryInfo.CreationTime}");
+        Console.WriteLine($"Root: {directoryInfo.Root}");
+
+        Console.WriteLine("============= FileInfo ==============");
+
+        FileInfo fileInfo = new FileInfo(pathBin);
+        
+        if (!fileInfo.Exists)
+        {
+        }
+        
+        Console.WriteLine($"FileName: {fileInfo.Name}");
+        Console.WriteLine($"Length: {fileInfo.Length}");
+        Console.WriteLine($"Time: {fileInfo.CreationTime}");
+
+        //fileInfo.CopyTo("", true);
+
+
+    }*/
 }
